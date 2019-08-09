@@ -21,7 +21,11 @@ npm run build --report
 ## vw实现移动端适配
 
 ```
-- postcss-import  
+npm install postcss-import postcss-url postcss-aspect-ratio-mini postcss-cssnext autoprefixer postcss-px-to-viewport postcss-write-svg cssnano postcss-aspect-ratio-mini --save-dev
+```
+
+```
+ - postcss-import  
  // 会在项目根目录生成 **.postcssrc.js** 文件 主要是解决@import引入路径问题
  - postcss-url
   // 主要用来处理文件，比如图片文件、字体文件等引用路径的处理 
